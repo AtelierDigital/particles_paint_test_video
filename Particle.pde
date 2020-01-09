@@ -25,7 +25,7 @@ class Particle {
   void display(/*PGraphics canvas*/) {
     /////////////canvas.beginDraw();
     noStroke();
-    color c = movie.get(int(x),int(y));
+    color c = video.get(int(x),int(y));
     fill(c,25);
     ellipse(x, y, diameter, diameter);
     ////////////canvas.endDraw();
